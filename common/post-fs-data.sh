@@ -5,3 +5,9 @@ MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
 # More info in the main Magisk thread
+
+# Add SELinux policies
+magiskpolicy --live "allow hal_gnss_default * * *"
+magiskpolicy --live "allow hal_gnss_qti * * *"
+magiskpolicy --live "allow * hal_gnss_default * *"
+magiskpolicy --live "allow * hal_gnss_qti * *"

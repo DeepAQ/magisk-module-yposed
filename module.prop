@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
+id=yposed
+name=Yposed Magisk module
+version=v1.0
 versionCode=1
-author=topjohnwu
-description=A short description
+author=DeepAQ
+description=A Magisk module to help Yposed deal with SELinux.
 minMagisk=1500
